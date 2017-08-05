@@ -25,6 +25,7 @@ Docker Hub is a cloud-based registry service which allows you to link to code re
 Vamos a crear nuestra cuenta en el repositorio de imagenes publicas de Docker
 Ir a: [Docker hub](https://hub.docker.com/)
 
+Vamos a traer una imagen de DokerHub y correrla
 
 ```bash
 $ Docker pull alpine 
