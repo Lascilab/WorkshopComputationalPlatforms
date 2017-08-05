@@ -1,4 +1,4 @@
-# Intro to Docker images
+# Intro to Docker
 ## Basic Docker commands
 
 Listar imagenes en mi equipo
