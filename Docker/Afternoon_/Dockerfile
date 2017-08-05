@@ -11,7 +11,7 @@ COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 
 # Se Compila el binario de la aplicacion
-RUN gcc -o pi pi.c
+RUN gcc pi.c -lm -o pi
 RUN cp pi /bin
 
 # Comando a ejecutar al correr el contenedor 
