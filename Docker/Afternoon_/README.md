@@ -29,11 +29,15 @@ Vamos a [DockerHub](https://hub.docker.com/) a revisar que nuestra imagen se enc
 y que si no quiero subir mi imagen a un repositorio local, en lugar de eso quiero tener mi imagen de forma portable.
 
 ```bash
-$ docker export --output="ejemplopi.tar" dockerHubUser/pi
+$ docker save --output="ejemplopi.tar" dockerHubUser/pi
 $ ls -h
 ```
 
 Para extraer en otro equipo
 ```bash
-
+$ docker import ejemplopi.tar dockerHubUser/pi
+```
+Revisar que la imagen ha sido correctamente creada
+```bash
+$ docker images
 ```
