@@ -12,13 +12,13 @@ The objective of this week's workshop is to publicize and encourage both Master'
 The event will be:
 
  - Linux - Command Line Interface 101
+ - Introduction to HTCondor
+ - HTCondor Workshop
  - Docker Containers
  - Docker Containers Workshop
- - HTCondor Workshop
- - Introduction to HTCondor
  - Introduction to Parallel Computing
- - GPGPU with OpenACC
  - Multicore Programming with OpenMP
+ - GPGPU with OpenACC
 
 
 ## Event location
@@ -29,4 +29,4 @@ Universidad del Valle, Cali, Colombia. Building 331, Systems Classroom #2, Secon
 
 ## Resgistry cost
 
-Free for all (max 30 students)
+Free for all (max 20 students)
