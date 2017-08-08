@@ -1,0 +1,20 @@
+##
+# Test Submit File
+##
+# Use: condor_submit testTask.condor
+Universe   = vanilla
+
+should_transfer_files = Yes
+when_to_transfer_output = ON_EXIT_OR_EVICT
+transfer_output_files=$(Val).png
+
+Executable = demo.octave
+
+Log        = octaveLog.txt
+Output     = Out/octaveOut.$(Process)
+Error      = Err/octaveErr.$(Process)
+
+idx = $(Process)+10
+Val = $INT(idx)
+Arguments = $(Val) $(Val).png
+Queue 90
