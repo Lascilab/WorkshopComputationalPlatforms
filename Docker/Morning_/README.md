@@ -31,7 +31,20 @@ Vamos a traer una imagen de DokerHub y correrla
 $ Docker pull alpine 
 
 $ Docker images
+```
+Ahora que tenemos una imagen de Linux Alpine
+```bash
+$ cat etc/os-release 
+```
+Observamos que distribucion de linux estamos corriendo en nuestro pc actual, luego
+```bash
+$ docker run -it --rm alpine 
+$ cat etc/os-release 
+```
+Podemos ver que la distribucion de Linux ha cambiado de nuestra actual distribucion a Apline linux
 
+```bash
+$ exit
 $ Docker rmi alpine
 ```
 
